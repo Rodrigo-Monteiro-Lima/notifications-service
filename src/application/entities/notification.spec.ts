@@ -8,7 +8,6 @@ describe('Notification', () => {
       category: 'social',
       recipientId: 'example-recipient-id',
     });
-
     expect(notification).toBeTruthy();
   });
 });
